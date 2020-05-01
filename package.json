@@ -47,13 +47,14 @@
     "uuid-js": "^0.7.5",
     "ws": "^6.0.0",
     "xmldom": "^0.1.27",
-    "yargs": "^12.0.1"
+    "yargs": "^12.0.1",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "clean": "rm -rf node_modules && rm -f package-lock.json && npm install",
     "build": "gulp transpile",
     "mocha": "mocha",
-    "prepublish": "gulp prepublish",
+    "prepublish": "npm run snyk-protect && gulp prepublish",
     "test": "gulp once",
     "e2e-test": "gulp e2e-test",
     "e2e-test:basic": "npm run build && _FORCE_LOGS=1 npm run mocha -- -t 0 -R spec build/test/functional/basic --exit",
@@ -66,7 +67,8 @@
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "precommit-test": "REPORTER=dot gulp once",
     "lint": "gulp eslint",
-    "lint:fix": "gulp eslint --fix"
+    "lint:fix": "gulp eslint --fix",
+    "snyk-protect": "snyk protect"
   },
   "pre-commit": [
     "precommit-msg",
@@ -114,5 +116,6 @@
       "gulp",
       "babel-runtime"
     ]
-  }
+  },
+  "snyk": true
 }

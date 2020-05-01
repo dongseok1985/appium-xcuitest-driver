@@ -1,0 +1,324 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > portfinder > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-remote-debugger > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - node-simctl > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > asyncbox > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-remote-debugger > appium-base-driver > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-simulator > node-simctl > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > node-simctl > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > teen_process > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > archiver > async > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
+    - appium-ios-driver > appium-ios-simulator > node-simctl > appium-xcode > appium-support > request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:29:54.134Z'
